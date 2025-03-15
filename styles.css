@@ -1,0 +1,281 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+
+.logo{
+    background-image: url("Resources/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.border{
+    border: 1.5px solid transparent;
+    padding: 8px;
+}
+
+.border:hover{
+        border-color: #ccc; 
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /
+
+}
+
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.add-sec{
+    font-size: 1rem;
+    margin-left: 3px;
+
+}
+
+.icon-address{
+    display: flex;
+    align-items: center;
+}
+
+.nav-search{
+    display: flex;
+    width: 900px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #fca24d;
+    justify-content: space-evenly;
+}
+
+.search-select{
+    background-color: #f3f3f3;
+    width: 50px;
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px ;
+    border: none;
+}
+
+.search-input{
+    width: 100%;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.Search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px ;
+    color: #0f1111;
+}
+
+.nav-search:hover{
+    border: 2px solid orange;
+}
+
+.nav-flag{
+    display: flex;
+    align-items: center;
+    background-color: #0f1111;
+}
+
+.flag-logo{
+    background-image: url("Resources/flag.png");
+    background-size: cover;
+    height: 16px;
+    width: 25px;
+}
+
+.flag-select{
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-size: 0.8rem;
+    cursor: pointer;
+    font-weight: bolder;
+}
+
+.flag-select option{
+    background-color: #0f1111;
+    color: white;
+}
+
+.nav-signin{
+    cursor: pointer;
+}
+.nav-Return{
+    cursor: pointer;
+}
+
+span{
+    font-size: 0.7rem;    
+}
+
+.nav-second{
+    font-size: 0.8rem;
+    font-weight: bolder;
+}
+
+.nav-cart i{
+    font-size: 22px;
+}
+
+.nav-cart{
+    font-size: 0.85rem ;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color:#ffffff;
+    align-items: center;
+    font-weight: 200;
+}
+
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;    
+}
+
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
+.panel-all{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.main{
+    background-image: url("Resources/main.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.message{
+    background-color: white;
+    color: #0f1111;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    display: flex;
+    width: 1500px;
+    margin: 60px;
+}
+
+a {
+    font-weight: 100;
+    color: #007185;
+  }
+
+a:hover{
+    color: rgb(205, 75, 75);
+}
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #edf1f1;
+}
+.box{
+    padding-top: 15px;
+    padding-left: 15px;
+    height: 360px;
+    width: 23%;
+    background-color: #ffffff;
+}
+
+.cat-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding-left: 10px;
+    padding-top: 10px;
+    cursor: pointer;
+  }
+  
+.cat-img img {
+    width: 90%;
+    height: 100px;
+    object-fit: cover;
+}
+
+figcaption {
+    font-size: 0.8rem;
+    color: #666;
+}
+
+.see-more {
+    font-size: 0.8rem;
+    color: #2db2b9;
+    text-decoration: none;
+    margin-top: 30px;
+    font-weight: 200;
+    display: block;
+}
+
+.one-img img{
+    width: 95%;
+    height: 90%;
+}
+
+.cat1, .cat2, .cat3, .cat4 {
+    margin-top: -30px; 
+  }
+
+.Related{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #edf1f1;
+    padding-top: 20px;
+    margin-left: 2px;
+}
+
+.Related-heading{
+    padding-top: 25px;
+    padding-left: 26px;
+    height: 350px;
+    width: 97%;
+    background-color: #ffffff;
+    display: flex;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.Related-images{
+    display: flex;
+    width: 50px;
+    height: 50px;
+    justify-content: space-evenly;
+}
